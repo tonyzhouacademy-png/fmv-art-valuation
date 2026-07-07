@@ -157,6 +157,19 @@ h3 {
   font-size: clamp(1.04rem, 2vw, 1.22rem);
 }
 
+.byline {
+  display: grid;
+  gap: 0.15rem;
+  margin-top: 1.25rem;
+  max-width: 720px;
+  color: #243746;
+  font-size: 0.95rem;
+}
+
+.byline strong {
+  color: var(--ink);
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
@@ -182,11 +195,21 @@ h3 {
   color: var(--blue);
 }
 
+.nav .nav-cta {
+  color: var(--red);
+  font-weight: 800;
+}
+
 .section {
   padding: clamp(3rem, 7vw, 6rem) clamp(1rem, 4vw, 3rem);
 }
 
 .section.alt {
+  background: #f3efe6;
+}
+
+.inquiry-band {
+  border-top: 1px solid var(--line);
   background: #f3efe6;
 }
 
@@ -295,6 +318,17 @@ h3 {
   border-radius: 8px;
   background: var(--surface);
   padding: 1rem;
+}
+
+.authority-links {
+  margin-top: 2rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.authority-links a {
+  display: block;
+  margin-top: 0.35rem;
 }
 
 .cta-band {
